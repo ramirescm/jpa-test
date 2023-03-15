@@ -1,0 +1,1 @@
+- With docker installed so up database with >> docker-compose up -d and run application

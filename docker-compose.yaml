@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  db:
+    image: arm64v8/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: jpa-test
+    ports:
+      - "3306:3306"
